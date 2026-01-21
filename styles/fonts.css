@@ -1,0 +1,173 @@
+/* Cinzel Fonts */
+@font-face {
+  font-family: "Cinzel";
+  src: url(../assets/fonts/cinzel/Cinzel-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url(../assets/fonts/cinzel/Cinzel-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url(../assets/fonts/cinzel/Cinzel-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url(../assets/fonts/cinzel/Cinzel-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url(../assets/fonts/cinzel/Cinzel-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url(../assets/fonts/cinzel/Cinzel-Black.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Lato Fonts */
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/lato/Lato-Thin.ttf);
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/lato/Lato-ThinItalic.ttf);
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/lato/Lato-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/lato/Lato-LightItalic.ttf);
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/lato/Lato-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/lato/Lato-Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/lato/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/lato/Lato-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/lato/Lato-Black.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/lato/Lato-BlackItalic.ttf);
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Medieval Sharp Font */
+@font-face {
+  font-family: "Medieval Sharp";
+  src: url(../assets/fonts/medievalSharp/MedievalSharp-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 
+Typographie
+ */
+*{
+    font-family: "Lato",sans-serif;
+}
+
+ h1{
+    font-size: 1.95rem;
+    line-height: 1.55;
+    letter-spacing: 0.02em;
+    font-family: "Medieval Sharp";
+    font-weight: 700;
+ }
+ .heading--gold{
+    color: var(--gold-dark);
+ }
+ h2{
+    font-size: 1.56rem;
+    line-height: 1.55;
+    letter-spacing: 0.02em;
+    font-family: "Cinzel";
+ }
+ h3{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: 0.025em;
+    font-family: "Cinzel";
+ }
+ h5{
+    font-size: 1.08rem;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    font-family: "Cinzel";
+ }
+h6{
+    font-size: 1.06rem;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    font-family: "Cinzel";
+}
+ .body{
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+ }
+ .cinzel{
+    font-family: "Cinzel";
+ }
+ label{
+    font-family: "Cinzel";
+ }

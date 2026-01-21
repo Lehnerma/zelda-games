@@ -1,15 +1,15 @@
 :root {
     /* Primary Colors - inspired by Zelda's iconic greens and golds */
-    --color-primary:  #2d5016;        /* Deep Forest Green (Link's tunic) */
-    --color-primary-light: #4a7c2c;  /* Light Forest Green */
+    --link-tunica:  #2d5016;        /* Deep Forest Green (Link's tunic) */
+    --forest-green-light: #4a7c2c;  /* Light Forest Green */
     --color-primary-dark: #1a3309;   /* Dark Forest Green */
     
     /* Secondary Colors - Hyrule Gold & Royal Blue */
     --color-secondary: #d4af37;      /* Hyrule Gold (Triforce) */
     --color-secondary-light: #f4d03f; /* Light Gold */
-    --color-secondary-dark: #b8941f;  /* Dark Gold */
+    --gold-dark: #b8941f;  /* Dark Gold */
     
-    --color-accent: #1e4d8b;         /* Royal Blue (Hylian Shield) */
+    --hylia-shield: #1e4d8b;         /* Royal Blue (Hylian Shield) */
     --color-accent-light: #3a6fb0;   /* Light Blue */
     --color-accent-dark: #0f2d52;    /* Dark Blue */
     
@@ -36,7 +36,7 @@
     --color-rupee-red: #ef4444;      /* Red Rupee */
     --color-rupee-purple: #a855f7;   /* Purple Rupee */
     --color-heart:  #ff3b3b;          /* Heart container red */
-    --color-master-sword: #7c9cbf;   /* Master Sword blue-silver */
+    --master-sword: #7c9cbf;   /* Master Sword blue-silver */
     
     /* Shadows & Overlays */
     --shadow-sm: 0 1px 2px rgba(44, 36, 22, 0.1);

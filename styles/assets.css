@@ -1,0 +1,39 @@
+button {
+  border: none;
+  background: none;
+}
+.btn--sword{
+    width: 40px;
+    height: 40px;
+    background: url(../assets/icons/sword.svg);
+}
+.game--logo {
+  background: url(../assets/icons/triforce-gold-sm.png);
+  width: 60px;
+  aspect-ratio: 1/1;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.rupee--red {
+  background: url(../assets/icons/rupee-red.png);
+}
+.rupee--green {
+  background: url(../assets/icons/rupee-green.png);
+}
+.rupee--unfill {
+  background: url(../assets/icons/rupee.png);
+}
+.rupee {
+  width: 40px;
+  height: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  cursor: var(--pointer-gold);
+  transition: all 200ms ease;
+  border: none;
+  &:hover {
+    transform: scale(1.04);
+  }
+}

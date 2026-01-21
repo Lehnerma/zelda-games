@@ -1,0 +1,12 @@
+:root{
+    /* spacing */
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lm: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 2.5rem;
+    --spacing-xxl: 3rem;
+
+    --pointer-gold: url(../assets/icons/triforce-pointer-gold.svg) 10 10, auto;
+    --pointer-green: url(../assets/icons/triforce-pointer.svg) 10 10, auto;
+}

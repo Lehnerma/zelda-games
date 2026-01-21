@@ -1,0 +1,42 @@
+.game--card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  cursor: url(../assets/icons/triforce-pointer-gold.svg) 10 10, auto;
+  background-color: var(--link-tunica);
+  border-radius: var(--spacing-sm);
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: var(--spacing-md);
+    aside {
+      text-align: center;
+    }
+  }
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid none solid none;
+    border-color: var(--master-sword);
+    gap: 2rem;
+    padding: var(--spacing-md);
+  }
+}
+
+.game--info {
+  display: flex;
+  gap: 1.4rem;
+  justify-content: space-between;
+}
+
+.like {
+    text-align: center;
+  aside {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 1rem;
+  }
+}

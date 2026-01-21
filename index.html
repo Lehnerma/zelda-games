@@ -3,34 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./assets/icons/triforce.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./assets/icons/triforce-gold.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/colors.css" />
+    <link rel="stylesheet" href="./styles/assets.css" />
+    <link rel="stylesheet" href="./styles/utilities.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="./styles/gamecard.css" />
     <title>Zelda Games</title>
   </head>
   <body>
-    <header>The Legend of Zelda Games</header>
+    <header><h1>The Legend of Zelda Games</h1></header>
     <main>
-      <article class="game-card">
+      <article class="game--card">
         <header class="game--header">
-          <div>triforce</div>
+          <div class="game--logo"></div>
           <aside>
-            <h2>Title</h2>
-            <h3>puplisher</h3>
+            <h2 class="heading--gold">Title</h2>
+            <h3 class="heading--gold">puplisher</h3>
           </aside>
         </header>
         <main>
           <section>
-            <h4>Consol: Wii</h4>
-            <h4>publishedyear: 2022</h4>
-            <h4>Metacritic: 65</h4>
+            <aside class="game--info">
+              <h5>price</h5>
+              <p class="body cinzel">5.99</p>
+            </aside>
+            <aside class="game--info">
+              <h5>Consol:</h5>
+              <p class="body cinzel">Wii</p>
+            </aside>
+            <aside class="game--info">
+              <h5>Year:</h5>
+              <p class="body cinzel">2002</p>
+            </aside>
+            <aside class="game--info">
+              <h5>Metacritic:</h5>
+              <p class="body cinzel">65</p>
+            </aside>
           </section>
-          <section>
-            <h4>likes: 453</h4>
-            <div>heart</div>
+          <section class="like">
+            <h5>Likes:</h5>
+            <aside>
+                <label for="btn_like">123</label>
+                <button class="rupee rupee--unfill" id="btn_like"></button>
+            </aside>
           </section>
         </main>
         <footer>
-          <p>comments</p>
+          <section>
+            <h6>ZeldaFanboy1:</h6>
+            <p class="comment"> Das ist ein Test kommentar um es anzuzeigen.</p>
+            <h6>EponGirl34:</h6>
+            <p class="comment"> Das ist ein Test kommentar um es anzuzeigen.</p>
+            <h6>Link404:</h6>
+            <p class="comment"> Das ist ein Test kommentar um es anzuzeigen.</p>
+          </section>
+          <section>
+            <input type="text" id="comment_inp" class="input">
+            <button class="btn btn--sword"></button>
+          </section>
         </footer>
       </article>
     </main>
