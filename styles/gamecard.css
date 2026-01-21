@@ -4,7 +4,14 @@
   max-width: 400px;
   cursor: url(../assets/icons/triforce-pointer-gold.svg) 10 10, auto;
   background-color: var(--link-tunica);
+  border: solid var(--forest-green-light) 0.5px;
   border-radius: var(--spacing-sm);
+  box-shadow: -8px -5px 3px 4px var(--forest-green-dark);
+  transition: transform 0.5s ease-in-out;
+
+  &:hover{
+      transform: translateY(-0.5rem) rotateY(2deg);
+  }
   header {
     display: flex;
     align-items: center;
@@ -62,7 +69,6 @@
       }
   }
 }
-
 .game--info {
   display: flex;
   gap: 1.4rem;
