@@ -2,10 +2,9 @@ button {
   border: none;
   background: none;
 }
-.btn--sword{
-    width: 40px;
-    height: 40px;
-    background: url(../assets/icons/sword.svg);
+.rupee {
+  width: 40px;
+  height: 60px;
 }
 .game--logo {
   background: url(../assets/icons/triforce-gold-sm.png);
@@ -24,9 +23,12 @@ button {
 .rupee--unfill {
   background: url(../assets/icons/rupee.png);
 }
-.rupee {
-  width: 40px;
-  height: 60px;
+.btn--sword {
+    width: 30px;
+    height: 30px;
+    background: url(../assets/icons/sword-sm.svg);
+  }
+.btn {
   background-position: center;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -34,6 +36,6 @@ button {
   transition: all 200ms ease;
   border: none;
   &:hover {
-    transform: scale(1.04);
+    transform: scale(1.1);
   }
 }

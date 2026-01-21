@@ -134,20 +134,20 @@ Typographie
     font-family: "Medieval Sharp";
     font-weight: 700;
  }
- .heading--gold{
-    color: var(--gold-dark);
- }
+
  h2{
-    font-size: 1.56rem;
+    font-size: 1.36rem;
     line-height: 1.55;
     letter-spacing: 0.02em;
     font-family: "Cinzel";
+    color: var(--gold-light);
  }
  h3{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.6;
     letter-spacing: 0.025em;
     font-family: "Cinzel";
+    color: var(--gold-dark);
  }
  h5{
     font-size: 1.08rem;

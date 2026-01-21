@@ -1,13 +1,12 @@
 :root {
     /* Primary Colors - inspired by Zelda's iconic greens and golds */
-    --link-tunica:  #2d5016;        /* Deep Forest Green (Link's tunic) */
-    --forest-green-light: #4a7c2c;  /* Light Forest Green */
-    --color-primary-dark: #1a3309;   /* Dark Forest Green */
-    
-    /* Secondary Colors - Hyrule Gold & Royal Blue */
-    --color-secondary: #d4af37;      /* Hyrule Gold (Triforce) */
-    --color-secondary-light: #f4d03f; /* Light Gold */
-    --gold-dark: #b8941f;  /* Dark Gold */
+    --link-tunica:  #2d5016;
+    --forest-green-light: #4a7c2c;
+    --color-primary-dark: #1a3309;  
+
+    --gold-triforce: #d4af37;
+    --gold-light: #f4d03f; 
+    --gold-dark: #b8941f; 
     
     --hylia-shield: #1e4d8b;         /* Royal Blue (Hylian Shield) */
     --color-accent-light: #3a6fb0;   /* Light Blue */

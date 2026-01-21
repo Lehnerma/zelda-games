@@ -1,7 +1,7 @@
 .game--card {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  max-width: 400px;
   cursor: url(../assets/icons/triforce-pointer-gold.svg) 10 10, auto;
   background-color: var(--link-tunica);
   border-radius: var(--spacing-sm);
@@ -10,6 +10,9 @@
     align-items: center;
     justify-content: space-around;
     padding: var(--spacing-md);
+    div {
+      width: 40%;
+    }
     aside {
       text-align: center;
     }
@@ -21,7 +24,42 @@
     border-style: solid none solid none;
     border-color: var(--master-sword);
     gap: 2rem;
-    padding: var(--spacing-md);
+    padding: var(--spacing-lm);
+  }
+  footer {
+    padding-top: var(--spacing-sm);
+    .comments-container {
+      padding: var(--spacing-md);
+      height: 160px;
+      overflow-y: scroll;
+      scrollbar-width: thin;
+      scrollbar-color: var(--master-sword) var(--link-tunica);
+
+      .comment-container {
+        display: flex;
+        justify-content: space-between;
+        padding: var(--spacing-sm) 0;
+        .comment {
+          max-width: 160px;
+        }
+      }
+    }
+    .input-container{
+        display: flex;
+        align-items: center;
+        padding: var(--spacing-sm);
+        input{
+            flex-grow: 1;
+            padding: 0.25rem;
+            font-family: "Lato",sans-serif;
+            background-color: var(--forest-green-light);
+            border-style: none none solid none;
+
+            &::placeholder{
+                color: var(--gold-dark);
+            }
+        }
+      }
   }
 }
 
@@ -32,7 +70,7 @@
 }
 
 .like {
-    text-align: center;
+  text-align: center;
   aside {
     display: flex;
     align-items: center;
