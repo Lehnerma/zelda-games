@@ -20,3 +20,14 @@ body {
 
   }
 }
+h1{
+  padding: var(--spacing-xxl);
+}
+.games{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  padding: var(--spacing-lg);
+
+}

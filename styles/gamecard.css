@@ -1,7 +1,7 @@
 .game--card {
   display: flex;
   flex-direction: column;
-  max-width: 400px;
+  width: 400px;
   cursor: url(../assets/icons/triforce-pointer-gold.svg) 10 10, auto;
   background-color: var(--link-tunica);
   border: solid var(--forest-green-light) 0.5px;
@@ -37,7 +37,7 @@
     padding-top: var(--spacing-sm);
     .comments-container {
       padding: var(--spacing-md);
-      height: 160px;
+      max-height: 160px;
       overflow-y: scroll;
       scrollbar-width: thin;
       scrollbar-color: var(--master-sword) var(--link-tunica);
