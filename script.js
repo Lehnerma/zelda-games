@@ -376,10 +376,10 @@ const zeldaGames = [
 let games = document.getElementById("game_cards");
 
 function init() {
-  renderGameCard();
+  renderGameCards();
 }
 
-function renderGameCard() {
+function renderGameCards() {
   let cardsRef = document.getElementById("game_cards");
   cardsRef.innerHTML = "";
   for (let gameIndex = 0; gameIndex < zeldaGames.length; gameIndex++) {
@@ -392,6 +392,7 @@ function renderGameCard() {
   }
 }
 
+function renderCard() {}
 function renderComments(gameIndex) {
   let commentRef = document.getElementById("comments_container_id" + gameIndex);
   commentRef.innerHTML = "";
@@ -402,14 +403,30 @@ function renderComments(gameIndex) {
 
 games.addEventListener("click", (element) => {
   let action = element.target.dataset.action;
-
+  console.log(action);
+  
   if (action === "like") {
-    let game = element.target.closest('game-card');
+    let game = element.target.closest(".game-card");
     let gameIndex = game.dataset.gameIndex;
-    console.log(gameIndex);
+    let btnRubee = element.target;
+    toggleRubee(gameIndex, btnRubee);
   }
+  init()
 });
 
+function toggleRubee(gameIndex, rubee) {
+  if (zeldaGames[gameIndex].like) {
+    rubee.classList.remove("rupee-green");
+    rubee.classList.add("rupee-unfill");
+    zeldaGames[gameIndex].like = !zeldaGames[gameIndex].like;
+    zeldaGames[gameIndex].likeCounter -= 1;
+  } else {
+    rubee.classList.remove("rupee-unfill");
+    rubee.classList.add("rupee-green");
+    zeldaGames[gameIndex].like = !zeldaGames[gameIndex].like;
+    zeldaGames[gameIndex].likeCounter += 1;
+  }
+}
 // like function
 
 //like counter

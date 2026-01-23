@@ -17,25 +17,29 @@ button {
   background: url(../assets/icons/rupee-red.png);
   background-repeat: no-repeat;
   transition: all 200ms ease-in-out;
-  &:hover{
-    transform: scale(1.04);
-  }
-}
-.rupee-green{
-  width: 40px;
-  height: 60px;
-  background: url(../assets/icons/rupee-green.png);
-  background-repeat: no-repeat;
-  transition: all 200ms ease-in-out;
-  &:hover{
+  &:hover {
     transform: scale(1.04);
   }
 }
 .rupee-unfill {
+  background: url(../assets/icons/rupee.png);
   width: 40px;
   height: 60px;
-  background: url(../assets/icons/rupee.png);
+  background-repeat: no-repeat;
 }
+.rupee-green{
+  background: url(../assets/icons/rupee-green.png);
+}
+.rupee{
+  width: 40px;
+  height: 60px;
+  background-repeat: no-repeat;
+  transition: all 200ms ease-in-out;
+  &:hover {
+    transform: scale(1.04);
+  }
+}
+
 .btn-sword {
   width: 30px;
   height: 30px;

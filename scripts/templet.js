@@ -29,8 +29,8 @@ function getGameCardTemplet(index) {
     <section class="like-section">
         <h5>Likes:</h5>
         <aside>
-        <p>${zeldaGames[index].likeCounter}</p>
-        <button class="rupee-green" id="btn_like" data-action="like"></button>
+        <p data-action="likecounter">${zeldaGames[index].likeCounter}</p>
+        <button class="rupee ${zeldaGames[index].like? "rupee-green" : "rupee-unfill"}" data-action="like"></button>
         </aside>
     </section>
     </main>
