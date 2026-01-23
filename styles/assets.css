@@ -1,12 +1,9 @@
 button {
   border: none;
   background: none;
+  cursor: var(--pointer-gold);
 }
-.rupee {
-  width: 40px;
-  height: 60px;
-}
-.game--logo {
+.game-logo {
   background: url(../assets/icons/triforce-gold-sm.png);
   width: 60px;
   aspect-ratio: 1/1;
@@ -14,25 +11,39 @@ button {
   background-repeat: no-repeat;
   object-fit: cover;
 }
-.rupee--red {
+.rupee-red {
+  width: 40px;
+  height: 60px;
   background: url(../assets/icons/rupee-red.png);
+  background-repeat: no-repeat;
+  transition: all 200ms ease-in-out;
+  &:hover{
+    transform: scale(1.04);
+  }
 }
-.rupee--green {
+.rupee-green{
+  width: 40px;
+  height: 60px;
   background: url(../assets/icons/rupee-green.png);
+  background-repeat: no-repeat;
+  transition: all 200ms ease-in-out;
+  &:hover{
+    transform: scale(1.04);
+  }
 }
-.rupee--unfill {
+.rupee-unfill {
+  width: 40px;
+  height: 60px;
   background: url(../assets/icons/rupee.png);
 }
-.btn--sword {
-    width: 30px;
-    height: 30px;
-    background: url(../assets/icons/sword-sm.svg);
-  }
-.btn {
+.btn-sword {
+  width: 30px;
+  height: 30px;
+  background: url(../assets/icons/sword-sm.svg);
+
   background-position: center;
   background-repeat: no-repeat;
   object-fit: cover;
-  cursor: var(--pointer-gold);
   transition: all 200ms ease;
   border: none;
   &:hover {

@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  }
+  
+  .game-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  
+  .game-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  }
+  
+  .game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .game-title {
+    color: #1e3c72;
+    font-size: 1.4em;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .game-info {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .metacritic {
+    background: #66cc33;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .like-btn {
+    background: none;
+    border: 2px solid #e74c3c;
+    color: #e74c3c;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .like-btn.liked {
+    background: #e74c3c;
+    color: white;
+  }
+  
+  .like-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .comments-toggle {
+    background: #2a5298;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95em;
+    transition: background 0.3s;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .comments-toggle:hover {
+    background: #1e3c72;
+  }
+  
+  .comments-section {
+    display: none;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 2px solid #f0f0f0;
+  }
+  
+  .comments-section.active {
+    display: block;
+  }
+  
+  .comment {
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border-left: 3px solid #2a5298;
+  }
+  
+  .comment-author {
+    font-weight: bold;
+    color: #2a5298;
+    margin-bottom: 5px;
+  }
+  
+  .comment-text {
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .price {
+    color: #27ae60;
+    font-weight: bold;
+    font-size: 1.1em;
+  }

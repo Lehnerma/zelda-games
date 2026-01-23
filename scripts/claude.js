@@ -55,7 +55,8 @@ zeldaGames.forEach((game, index) => {
   const gameCard = document.createElement("div");
   gameCard.className = "game-card";
   gameCard.dataset.gameIndex = index;
-
+  console.log(gameCard.dataset.gameIndex);
+  
   gameCard.innerHTML = `
           <div class="game-header">
             <h2 class="game-title">${game.fullName}</h2>
@@ -104,6 +105,7 @@ zeldaGames.forEach((game, index) => {
 // Event Delegation - EIN Listener für ALLES
 gamesContainer.addEventListener("click", (e) => {
   const action = e.target.dataset.action;
+console.log(e.target);
 
   if (action === "toggle-comments") {
     const gameCard = e.target.closest(".game-card");

@@ -1,4 +1,4 @@
-.game--card {
+.game-card {
   display: flex;
   flex-direction: column;
   width: 400px;
@@ -69,13 +69,13 @@
       }
   }
 }
-.game--info {
+.game-info {
   display: flex;
   gap: 1.4rem;
   justify-content: space-between;
 }
 
-.like {
+.like-section {
   text-align: center;
   aside {
     display: flex;
